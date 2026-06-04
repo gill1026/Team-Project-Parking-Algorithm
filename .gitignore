@@ -1,0 +1,28 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# ===== 가상환경 (절대 업로드 금지: 250MB+) =====
+.venv/
+**/.venv/
+venv/
+env/
+
+# ===== 시뮬레이터/에이전트 실행 산출물 =====
+replays/
+**/replays/
+student_replays/
+**/student_replays/
+
+# ===== 에디터/OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Claude Code 로컬 설정 (공유 불필요) =====
+.claude/
